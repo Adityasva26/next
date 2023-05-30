@@ -1,3 +1,6 @@
+     /\    
+    /  \   
+   / -- \
 
 ## Getting Started
 
@@ -12,3 +15,5 @@ pnpm dev
 ```
 
 we are getting start by nextjs in this project we are creating bckend api and frontend in same project 
+
+
