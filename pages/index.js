@@ -37,7 +37,7 @@ export default function Home() {
         <input onChange={(e) => SetData(e.target.value)} />
         <button onClick={() => handleSubmit()}>submit</button>
         <ul>
-          {getdata?.map((item) => <li>{item.task}</li>)}
+          {getdata?.map((item) => <li key={item._id}>{item.task}</li>)}
           
         </ul>
       </main>
